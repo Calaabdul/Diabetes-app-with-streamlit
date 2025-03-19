@@ -3,8 +3,8 @@ import pickle
 import numpy as np
 
 # Load the model and scaler
-model_path = '/Users/abdulrahaman/Documents/Project/diabetes/diabetes_model.pkl'
-scaler_path = '/Users/abdulrahaman/Documents/Project/diabetes/scaler.pkl'
+model_path = 'diabetes_model.pkl'
+scaler_path = 'scaler.pkl'
 
 with open(model_path, 'rb') as model_file:
     model = pickle.load(model_file)
